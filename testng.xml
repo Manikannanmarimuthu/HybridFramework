@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run" parallel="methods" thread-count="3"
+	verbose="2">
+	<test name="GS SWitch Sanity Test">
+		<classes>
+			<class name="com.gsswitch.qa.testcases.LoginPageTest" />
+		</classes>
+	</test>
+</suite>
