@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GS Switch Suite" verbose="2">
+	<listeners>
+		<listener class-name="com.gsswitch.qa.extentreport.ExtentReporterNG" />
+		<listener class-name="com.gsswitch.qa.util.AnnotationTransformer" />
+		<listener class-name="com.gsswitch.qa.util.Listener" />
+	</listeners>
+
+	<test name="Login Page">
+		<classes>
+			<class name="com.gsswitch.qa.testcases.GsswLoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="Home Page">
+		<classes>
+			<class name="com.gsswitch.qa.testcases.GsswHomePageTest" />
+		</classes>
+	</test>
+
+	<test name="Client Instruction History Page">
+		<classes>
+			<class name="com.gsswitch.qa.testcases.GsswClientInstHistoryTest" />
+		</classes>
+	</test>
+</suite>
