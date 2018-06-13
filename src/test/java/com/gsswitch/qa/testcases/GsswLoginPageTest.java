@@ -16,9 +16,9 @@ public class GsswLoginPageTest extends GsswBaseTest {
 		loginPage = new GsswLoginPage();
 	}
 
-	@Test(priority = 1)
-	public void loginTest() throws InterruptedException {
-		loginPage.login();
+	@Test(dataProvider = "testdataset")
+	public void loginTest(String UserName, String Password) throws InterruptedException {
+		loginPage.login(UserName, Password);
 	}
 
 }

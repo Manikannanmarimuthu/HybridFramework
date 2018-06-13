@@ -30,7 +30,7 @@ import com.gsswitch.qa.pages.helper.ClientInstFilesHistInqHelper;
 import com.opencsv.CSVWriter;
 
 /**
- * @author Saravanan M
+ * @author Manikannan M
  *
  */
 public class ApplicationUtil {

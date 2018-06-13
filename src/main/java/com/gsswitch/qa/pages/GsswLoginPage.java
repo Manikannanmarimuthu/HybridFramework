@@ -39,9 +39,9 @@ public class GsswLoginPage extends GsSwitchUIBase {
 		return logo.isDisplayed();
 	}
 
-	public GsswHomePage login() throws InterruptedException {
-		userName.sendKeys(appCfg.getAppLoginUser());
-		password.sendKeys(appCfg.getAppLoginPass());
+	public GsswHomePage login(String UserName, String Password) throws InterruptedException {
+		userName.sendKeys(UserName);
+		password.sendKeys(Password);
 		Thread.sleep(3000);
 		loginBtn.click();
 		return new GsswHomePage();

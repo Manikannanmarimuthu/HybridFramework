@@ -14,7 +14,7 @@ public class GsswHomePageTest extends GsswBaseTest {
 	public void setup() throws InterruptedException, FileNotFoundException, IOException {
 		initialization();
 		loginPage = new GsswLoginPage();
-		homePage = loginPage.login();
+		//homePage = loginPage.login();
 	}
 
 	@Test
