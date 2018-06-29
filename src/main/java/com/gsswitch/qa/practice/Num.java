@@ -17,5 +17,4 @@ public class Num {
 			System.out.println("Not same");
 		}
 	}
-
 }
